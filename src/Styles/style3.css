@@ -1,0 +1,28 @@
+body {
+  background-color: bisque;
+}
+.example-text {
+  text-align: center;
+}
+.title {
+  text-align: center;
+}
+.example-text {
+  word-spacing: 5px;
+  letter-spacing: 10px;
+  text-shadow: -5px 0px 4px black;
+}
+.example-text {
+  font-family: "Playwrite IN", serif;
+}
+.title {
+  word-spacing: 5px;
+  letter-spacing: 10px;
+  text-shadow: -5px 0px 10px black;
+  color: red;
+}
+@font-face {
+  font-family: "Playwrite Indian";
+  font-weight: 400;
+  src: url(../font/PlaywriteIN-Regular.ttf) format("ttf");
+}

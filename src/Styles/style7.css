@@ -1,0 +1,32 @@
+/* .item {
+  min-height: 50px;
+  background-color: tomato;
+  width: 50%;
+}
+.item1 h1 {
+  font-size: 2em;
+} */
+html {
+  font-size: 25px;
+}
+body {
+  margin: 0;
+  font-size: 40px;
+}
+.box-1 {
+  min-height: 50px;
+  background-color: tomato;
+  font-size: 20px;
+}
+.title-prime {
+  font-size: 2rem;
+  /* font-size: 2em; */
+}
+.sub-title {
+  font-size: 1.5rem;
+  /* font-size: 1.5em; */
+}
+h3 {
+  font-size: 0.75rem;
+  /* font-size: 0.75em; */
+}

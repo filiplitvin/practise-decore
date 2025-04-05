@@ -1,0 +1,38 @@
+.header {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding: 10px 50px 15px 20px;
+}
+
+.nav-item {
+  padding: 15px;
+  border: 2px dashed black;
+  /* margin: 10px; */
+  margin-bottom: 15px;
+  border-width: 10px 5px 15px 18px;
+  border-color: green aquamarine;
+  border-style: double inset groove ridge;
+
+  /* border-style: double; */
+
+  /* Висота та ширина */
+
+  /* width: 900px; */
+  max-width: 400px;
+  min-height: 50px;
+}
+.nav-item:last-child {
+  margin-bottom: 0;
+}
+button {
+  /* width: 200px;
+  height: 100px; */
+  padding: 15px 80px;
+}
+.inline-text {
+  display: block;
+  background-color: aquamarine;
+  padding: 15px 80px;
+}

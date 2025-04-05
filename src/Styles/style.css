@@ -1,0 +1,45 @@
+:root {
+  --colroTextPrimary: blue;
+}
+p {
+  font-size: 20px;
+  background-color: rgb(255, 235, 205);
+}
+h1 {
+  background-color: lightgray;
+}
+.description {
+  text-decoration: line-through;
+}
+[type="text"] {
+  background-color: aqua;
+}
+h1,
+.description {
+  text-transform: uppercase;
+}
+section p {
+  background-color: aqua;
+}
+section p {
+  background-color: cadetblue;
+}
+section ~ p {
+  color: brown;
+}
+section :hover h1 {
+  color: yellow;
+}
+a.big {
+  font-size: 3em;
+}
+body {
+  background-color: cornflowerblue;
+  color: rgb(95, 25, 160);
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a {
+  color: inherit;
+}

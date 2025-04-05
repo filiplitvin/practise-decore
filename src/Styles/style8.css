@@ -1,0 +1,39 @@
+.bg-box {
+  max-width: 800px;
+  min-height: 600px;
+  border: 20px dashed darkcyan;
+  margin-inline: auto;
+  /* -------------- */
+  background-color: chocolate;
+  background-image: url(../img/cat-with-glasses.gif),
+    url(https://cdn.pixabay.com/photo/2020/07/06/01/33/forest-5375005_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: top, right;
+  background-size: auto, cover;
+  /* background-attachment: scroll; */
+  /* background-attachment: fixed; */
+  background-clip: content-box;
+}
+.inner-box {
+  width: 100px;
+  height: 100px;
+  background-color: forestgreen;
+  border-radius: 50px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.box::before {
+  content: "";
+  width: 180px;
+  height: 180px;
+  background-image: url(../img/emoj.png);
+  background-color: tomato;
+  border-radius: 100px;
+  background-position: center;
+}
+.box:hover::before {
+  display: inline-block;
+}

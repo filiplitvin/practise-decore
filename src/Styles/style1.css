@@ -1,0 +1,19 @@
+/* .example-text {
+  font-size: 50px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1, 5;
+  color: blue;
+  font-family: "Playfair Display";
+} */
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #626262;
+}
+.example.title {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  color: #b4ad9e;
+}

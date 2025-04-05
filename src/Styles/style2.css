@@ -1,0 +1,49 @@
+.example-text {
+  text-align: justify;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: inherit;
+  text-indent: 30%;
+}
+.title {
+  text-align: center;
+}
+span {
+  vertical-align: text-bottom;
+}
+b {
+  font-size: 2em;
+}
+/* .example-text {
+  white-space: nowrap;
+  
+} */
+/* .example-text {
+  white-space: pre;
+} */
+/* .example-text {
+  white-space: pre-wrap;
+} */
+/* .example-text {
+  white-space: break-spaces;
+}  */
+.example-text {
+  word-spacing: 5px;
+  letter-spacing: 10px;
+  text-shadow: -5px 0px 4px black;
+}
+.example-text::first-letter {
+  font-size: 2em;
+  font-weight: 700;
+  color: blueviolet;
+}
+.last-letter {
+  color: blueviolet;
+}
+.example-text::first-letter {
+  color: red;
+}
+.example-text::selection {
+  color: blueviolet;
+  background-color: aliceblue;
+}
