@@ -4,5 +4,12 @@
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid black;
-  background-image: url(../img/fish.jpeg);
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(143, 11, 11, 0.294),
+      rgba(0, 128, 0, 0.3)
+    ),
+    url(../img/fish.jpeg);
+  background-position: center;
+  background-size: cover;
 }

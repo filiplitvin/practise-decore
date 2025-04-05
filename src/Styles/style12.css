@@ -1,0 +1,22 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: teal;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  gap: 5px;
+}
+.button::before {
+  content: "";
+  background-color: aquamarine;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/car.webp);
+
+  background-size: cover;
+}
