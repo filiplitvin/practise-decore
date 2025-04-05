@@ -1,0 +1,8 @@
+.overlay {
+  max-width: 1600px;
+  height: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+  background-image: url(../img/fish.jpeg);
+}
