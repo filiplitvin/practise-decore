@@ -1,0 +1,6 @@
+.title-container {
+  display: flex;
+  justify-content: start;
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 50px;
+}
